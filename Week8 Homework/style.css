@@ -1,0 +1,38 @@
+img{
+	   border-radius: 50%;
+
+}
+.div1{
+
+
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.div2{
+
+
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.div1:hover {
+    background-color: brown;
+}
+.div2:hover {
+    background-color: blue;
+
+}
+a:link{
+	color: black;
+	text-decoration: underline;
+}
+a:visited{
+	color:silver;
+	text-decoration: underline;
+}
+{
+	background-image:
+	"image.jpg";
+
+}

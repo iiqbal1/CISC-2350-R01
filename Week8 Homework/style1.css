@@ -1,0 +1,19 @@
+
+div{
+
+	 background-color: #38e2e0;
+	 text-align: center;
+	 line-height: 150px;
+	 color: white;
+	 width: 150px;
+	 height: 150px;
+	 margin-right: 50px;
+	 display: inline-block;
+	 border-radius: 50%;
+}
+
+
+div:hover {
+    background-color: black;
+
+}
