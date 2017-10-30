@@ -1,0 +1,58 @@
+p{
+	background-color: yellow;
+	color: magenta;
+	font-size: 15px;
+	font-family: Verdana, sans-serif;
+
+}
+
+body{
+	background-color: cyan;
+	color: yellow;
+}
+
+a:hover{
+	background-color:cyan;
+	font-size:20px;
+}
+
+.div1 {
+    
+	width: 700px;
+	border: 3px;
+	border-style: dashed;
+	border-color: magenta;
+	padding: 5px;
+	margin: 25px;
+}
+
+.left{
+	box-sizing: border-box;
+	border-style: solid;
+	border-color:magenta;
+	float: left;
+	width: 29.5%;
+	padding: 25px;
+	margin:25px;
+}
+
+.center{
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: magenta;
+	float: left;
+	width: 29.5%;
+	padding: 25px;
+	margin:25px;
+
+}
+.right{
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: magenta;
+	float: left;
+	width: 29.5%;
+	padding: 25px;
+	margin:25px;
+
+}
