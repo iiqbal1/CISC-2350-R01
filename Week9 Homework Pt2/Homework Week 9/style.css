@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    font-family: Arial;
+}
+
+
+
+.column {
+    float: left;
+    
+    padding: 100px;
+}
+
+.column img {
+    margin-top: -5px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.greyscale{
+  filter: grayscale(1);
+    -webkit-filter: grayscale(1);    
+}
+.sepia{
+  filter: sepia(100%);
+    -webkit-filter: sepia(1);
+    -ms-filter: sepia(100%);    
+}
+.blur{
+  filter: blur(5px);
+   -webkit-filter: blur(5px);
+   
+}
+.saturate{
+    filter: saturate(2);
+      -webkit-filter: saturate(2);
+}
+.hue {
+    filter: hue-rotate(140deg);
+      -webkit-filter: hue-rotate(140deg);
+}
+.invert {
+    filter: invert(.8);
+      -webkit-filter: invert(.8);
+} 
+.darken {
+    filter: brightness(.5);
+      -webkit-filter: brightness(.5);
+}
+.contrast {
+    filter: contrast(2);
+      -webkit-filter: contrast(2);
+}
+
+.all-the-things {
+    filter: contrast(1.4) saturate(1.8) sepia(.6);
+      -webkit-filter: contrast(1.4) saturate(1.8) sepia(.6);
+}
+.opacity {
+    -webkit-filter: opacity(.8);
+    filter: opacity(.8);
+}
+.brightness {
+    -webkit-filter: brightness(.9);
+    filter: brightness(.9);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
