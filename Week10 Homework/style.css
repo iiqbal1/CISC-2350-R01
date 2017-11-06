@@ -1,0 +1,34 @@
+
+.none            { cursor: none; }
+
+.help            { cursor: help; }
+.pointer         { cursor: pointer; }
+
+.wait            { cursor: wait; }
+
+.copy            { cursor: copy; }
+.move            { cursor: move; }
+
+
+
+
+body {
+  text-align: center;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.cursors {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cursors > div {
+  flex: 150px;
+  padding: 10px 2px;
+  white-space: nowrap;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin: 0 5px 5px 0;
+}
+.cursors > div:hover {
+  background: #eee;
+}
