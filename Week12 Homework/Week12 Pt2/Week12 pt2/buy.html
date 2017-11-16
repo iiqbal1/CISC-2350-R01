@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Store</title>
+			<!-- link with the css file -->
+		<link rel="stylesheet" type="text/css" href="buy.css">	
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+			<!-- table format -->
+		<style>
+		table, th, td {
+    	border: 1px solid black;
+		}
+		</style>
+	<body>
+			<!-- navigation bar with white hover over text-->
+		<class="w3-bar w3-black">
+ 		<p align="right">
+ 		 <a href="../project1.html" >eVeRy Body</a>
+ 		 <a href="about.html" >About</a>
+ 		 <a href="support.html" >Support</a>
+ 		 <a href="buy.html" >Store</a>
+		</p>
+			<!-- heading -->
+		<center><h1>eVeRy Body</h1></center>
+			<!-- heading for the table -->
+		<h3>Choose the option that best suits your purpose:</h3>
+			<!-- table -->
+	<table>
+  		<tr>
+    		<td><center><h3>Premium</h3></center>
+    		<h5>Ideal for organizations. The Commercial Suite includes the Development Edition hardware, plus a warranty and enterprise features for added security and device management. More Frequent Updates. All apps are 25% off </h5></td>
+    		<td>$9999.99</td>
+  		</tr>
+  		<tr>
+    		<td><center><h3>Standard</h3></center><h5>A good choice for individual developers who are ready to get started. Documentation, tutorials, and community forums are standing by to support you.</h5></td>
+    		<td>$5999.99</td>
+  		</tr>
+	</table>
+			<!-- form to choose suit type -->
+		<form>
+			<h3>Select Your Suit Feature: <br>
+				<input type="radio" name="favButton" value="radio" checked="checked"/> Premium
+				<input type="radio" name="favButton" value="checkbox" /> Standard
+		</form>
+		
+			<!-- local images of suits -->
+		<h1>
+			<img src="images/suit1.gif" width="150" height="275">
+			<img src="images/suit2.gif" width="150" height="275">
+		</h1>
+			<!-- form to choose suit color -->
+		<form>
+				<h3>Select your color option: <br>
+				<input type="radio" name="favButton" value="radio" checked="checked"/> Black
+				<input type="radio" name="favButton" value="checkbox" /> Silver
+					
+		</form>
+			<!-- conformation followed by submit box -->
+		<form>
+			<h4>Are you ready to make that selection?</h4>
+			<input type="submit" name="submit" value="SUBMIT" />
+		</form>
+		
+			<!-- heading for reviews -->
+		<center><h2>7 Reviews</h2></center>
+
+			<!-- 7 images of ratings followed by comment and username -->
+			<img src="https://nike.ugc.bazaarvoice.com/9191-en_us/4_0/5/rating.gif" class="BVImgOrSprite" alt="4.0 / 5" title="4.0 / 5">
+			<h3>"I love it"</h3>
+			<h4>Bill Gates</h4>
+
+			<img src="https://nike.ugc.bazaarvoice.com/9191-en_us/5_0/5/rating.gif" class="BVImgOrSprite" alt="5.0 / 5" title="5.0 / 5">
+			<h3>"The Best Thing That Has Ever Happened To Me"</h3>
+			<h4>GoogleGlassUser124</h4>
+
+			<img src="https://nike.ugc.bazaarvoice.com/9191-en_us/4_5/5/rating.gif" class="BVImgOrSprite" alt="4.5 / 5" title="4.5 / 5">
+			<h3>"Life Changing"</h3>
+			<h4>Ishtiaq's Grandma</h4>
+
+			<img src="https://nike.ugc.bazaarvoice.com/9191-en_us/5_0/5/rating.gif" class="BVImgOrSprite" alt="5.0 / 5" title="5.0 / 5">
+			<h3>"Everything you will ever need"</h3>
+			<h4>ThatTechGuy</h4>
+			
+			<img src="https://nike.ugc.bazaarvoice.com/9191-en_us/4_0/5/rating.gif" class="BVImgOrSprite" alt="4.0 / 5" title="4.0 / 5">
+			<h3>"My daugheter loves it"</h3>
+			<h4>SoccerMom42</h4>
+
+			<img src="https://nike.ugc.bazaarvoice.com/9191-en_us/1_0/5/rating.gif" class="BVImgOrSprite" alt="1.0 / 5" title="1.0 / 5">
+			<h3>"Pathetic"</h3>
+			<h4>IhateVR</h4>
+
+			<img src="https://nike.ugc.bazaarvoice.com/9191-en_us/5_0/5/rating.gif" class="BVImgOrSprite" alt="5.0 / 5" title="5.0 / 5">
+			<h3>"The Best. Amazing. Wonderful."</h3>
+			<h4>President Trump</h4>
+
+			<form>
+			<h4>Write Your Own Review</h4>
+		<input type="text" name="comment" id="comment" placeholder="Enter Your Comment">
+		<br>
+		<input type="text" name="user" id="user" placeholder="Enter Your User Name">
+
+			<div id="formContainer"></div>
+		<form>
+		
+		<br>
+
+			<button type= "button" onclick="buttonCLicked()">Submit</button>
+
+		</form>
+		<!-- Social Media Icons w/ links -->
+		<p align= "right">
+		<a target="_blank" title="follow me on instagram" href="http://www.instagram.com/PLACEHOLDER"><img alt="follow me on instagram" src="https://c866088.ssl.cf3.rackcdn.com/assets/instagram30x30.png" border=0></a>
+		<a href = "https://www.facebook.com"><meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<i class="fa fa-facebook-official" style="font-size:30px;color:#3b5998"></i>
+		<a target="_blank" title="follow me on youtube" href="http://www.youtube.com"><img alt="follow me on youtube" src="https://c866088.ssl.cf3.rackcdn.com/assets/youtube30x30.png" border=0></a>
+		</p>
+
+		
+	</body>
+</html>
