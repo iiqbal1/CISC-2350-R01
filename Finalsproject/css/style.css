@@ -1,0 +1,124 @@
+
+
+/*animated backgroud*/
+body {
+background: linear-gradient(330deg, #00dbff, #ff9f00);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 6s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{backgcsround-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 5%}
+    50%{background-position:100% 96%}
+    100%{background-position:0% 5%}
+}
+/*navbar*/
+div{
+	margin-left: 90px;
+	margin-top: 25px;
+}
+img{
+	border-radius: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  float:right;
+  padding: 20px;
+  margin: 15px;
+}
+.nav li {
+  font-family: 'Texta', Helvetica, Arial, sans-serif;
+  border-bottom: 1px gold;
+}
+.nav a {
+  display: block;
+  text-decoration: underline;
+  color: white;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: gold;
+}
+.nav a:active {
+  background-color: cyan;
+  color: white;
+  cursor: 
+}
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+
+}
+
+/*image of author*/
+.author{
+	border-radius: 100%;
+	border: 3px solid #3c3b3c;
+}
+
+.link a:hover{
+    width: 450px;
+    height: 450px;
+}
+
+h1,h4{
+  color:white;
+  font-family: 'Allan', cursive;
+ }
+p{
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    font-size:20px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.read{
+  border: 1.5px solid #3c3b3c;
+}
+h5{
+  color:white;
+}
+body{
+  color:white;
+}
+.previous {
+    background-color: cyan;
+    color: orange;
+    float: left;
+    text-decoration: none;
+}
+
+.next {
+    background-color: orange;
+    color: cyan;
+    float: right;
+    text-decoration: none;
+    margin-right: 33%;
+}
+.image{
+  border-radius: 0%;
+}
+.float input{
+  float:right 50%;
+}
+
